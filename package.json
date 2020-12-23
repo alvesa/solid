@@ -1,0 +1,17 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon --watch \"./\" --exec \"ts-node solid.ts\" -e ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
